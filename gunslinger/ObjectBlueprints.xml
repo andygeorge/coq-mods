@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+  <object Name="sandalwoodgun" Inherits="Borderlands Revolver">
+    <part Name="Commerce" Value="10000" />
+    <part Name="Render" DisplayName="sandalwood gun" />
+    <part Name="AddMod" Mods="ModMasterwork,ModLacquered,ModSturdy" />
+    <part Name="MagazineAmmoLoader" ProjectileObject="ProjectileSandalwoodGunShell" AmmoPart="AmmoSlug" MaxAmmo="8" />
+    <part Name="Description" Short="This is the gun of a true gunslinger, having been passed down through the ages from Arthur Eld himself. Its barrel and eight-round chamber were made using the melted down blue-grey steel of the sword, Excalibur, and have the rose, the sign of the Eld, engraved in the side. The sandalwood grip of the gun has never lost its fragrance." />
+  </object>
+  <object Name="ProjectileSandalwoodGunShell" Inherits="TemporaryProjectile">
+    <part Name="Render" DisplayName="lead slug" />
+    <part Name="Projectile" BasePenetration="10" BaseDamage="3d10" ColorString="&amp;y" PassByVerb="whiz" />
+    <part Name="Physics" IsReal="false" />
+    <tag Name="Slug" />
+  </object>
+</objects>

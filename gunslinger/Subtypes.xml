@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<subtypes>
+  <class ID="Callings" ChargenTitle="Choose Calling" SingularTitle="calling">
+      <subtype Name="The Gunslinger" Code="z" Gear="StartingGear_The_Gunslinger" Tile="creatures/caste_16.bmp" DetailColor="c">
+        <stat Name="Agility" Bonus="8" />
+        <stat Name="Strength" Bonus="-1" />
+        <stat Name="Toughness" Bonus="10" />
+        <stat Name="Willpower" Bonus="3" />
+        <stat Name="Intelligence" Bonus="3" />
+        <skills>
+          <skill Name="Pistol" />
+          <skill Name="Pistol_WeakSpotter" />
+          <skill Name="Acrobatics" />
+          <skill Name="Acrobatics_Dodge" />
+          <skill Name="Tactics" />
+          <skill Name="Rifles" />
+          <skill Name="Discipline" />
+          <skill Name="Customs" />
+          <skill Name="Survival" />
+          <skill Name="Survival_SaltDesertSurvival" />
+          <skill Name="CookingAndGathering_Harvestry" />
+          <skill Name="Survival_Trailblazer" />
+          <skill Name="Endurance_Weathered" />
+        </skills>
+        <extrainfo>Begins with a gunslinger's ancient pair of sandalwood-gripped guns.</extrainfo>
+      </subtype>
+  </class>
+</subtypes>
