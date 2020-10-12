@@ -3,7 +3,7 @@
   <population Name="StartingGear_The_Gunslinger">
     <group Style="pickeach">
       <table Name="StartingGear_Common"></table>
-      <object Blueprint="sandalwoodgun" Number="2"></object>
+      <object Blueprint="Sandalwood Gun" Number="2"></object>
       <object Blueprint="HalfFullWaterskin" Number="3"></object>
       <object Blueprint="Lead Slug" Number="4000"></object>
       <object Blueprint="Goggles" Number="1"></object>
