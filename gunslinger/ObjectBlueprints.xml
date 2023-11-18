@@ -4,12 +4,12 @@
     <part Name="Render" DisplayName="sandalwood gun" />
     <part Name="MissileWeapon" AnimationDelay="0" Skill="Pistol" ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="4" RangeIncrement="6" />
     <part Name="Commerce" Value="10000" />
-    <!-- <part Name="AddMod" Mods="ModMasterwork,ModLacquered,ModSturdy" /> -->
     <part Name="ModMasterwork" />
     <part Name="ModLacquered" />
     <part Name="ModSturdy" />
     <part Name="MagazineAmmoLoader" ProjectileObject="ProjectileSandalwoodGunShell" AmmoPart="AmmoSlug" MaxAmmo="8" />
-    <part Name="Description" Short="This is the gun of a true gunslinger, having been passed down through the ages from Arthur Eld himself. Its barrel and eight-round chamber were made using the melted down blue-grey steel of the sword, Excalibur, and have the rose, the sign of the Eld, engraved in the side. The sandalwood grip of the gun has never lost its fragrance." />
+    <part Name="Description" Short="!This is the gun of a true gunslinger, having been passed down through the ages from Arthur Eld himself. Its barrel and eight-round chamber were made using the melted down blue-grey steel of the sword, Excalibur, and have the rose, the sign of the Eld, engraved in the side. The sandalwood grip of the gun has never lost its fragrance." />
+    <tag Name="MissileFireSound" Value="Sounds/gunshot" />
   </object>
   <object Name="ProjectileSandalwoodGunShell" Inherits="TemporaryProjectile">
     <part Name="Render" DisplayName="lead slug" />
