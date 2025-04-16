@@ -6,4 +6,6 @@ A custom mutant Elite Calling, based heavily on [Elite Calling: Zamuri](https://
 
 ## Installing a mod manually:
 
-- Copy a mod's entire folder to `C:\Users\USER\AppData\LocalLow\Freehold Games\CavesOfQud\Mods\`
+ Copy a mod's entire folder toL
+- winders: `C:\Users\USER\AppData\LocalLow\Freehold Games\CavesOfQud\Mods\`
+- loonix: `~/.config/unity3d/Freehold\ Games/CavesOfQud/Mods/`
